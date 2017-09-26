@@ -48,6 +48,7 @@ public with sharing class BotController {
                         params.add(utteranceMatcher.group(i).trim());
                     }
                     return h.handle(utterance, params, session, fileName, fileContent);
+                    system.debug('Change in ide');
                 }
             }
             
