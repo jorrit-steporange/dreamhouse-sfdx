@@ -5,6 +5,10 @@ public with sharing class BotController {
         public String handlerClassName;
         public Pattern utterancePattern;
 
+        public void iDontDoAnything() {
+            //todo
+        }
+
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);

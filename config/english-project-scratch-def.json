@@ -1,0 +1,8 @@
+{
+    "orgName": "ccoenraets Company",
+    "edition": "Developer",
+    "language": "EN",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}
